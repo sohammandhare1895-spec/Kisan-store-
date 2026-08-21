@@ -1,0 +1,21 @@
+{
+  "name": "kisan-store",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Kisan Store — Data-for-Equipment reward store for farmers. Polyglot repo: HTML, CSS, JS, TypeScript, Dart, Python, Java, Kotlin, Go, C++, PHP, Ruby, R, SQL, Shell, PowerShell and more.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "cli": "tsx src/ts/index.ts",
+    "serve": "python3 -m http.server 8000",
+    "smoke": "node scripts/smoke_test.mjs",
+    "test:py": "python3 -m unittest discover -s backend/tests -v"
+  },
+  "keywords": ["agriculture", "farmers", "rewards", "camera", "check-in", "polyglot"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tsx": "^4.16.0"
+  }
+}
