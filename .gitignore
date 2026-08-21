@@ -1,0 +1,33 @@
+# ── Node / TypeScript ──
+node_modules/
+dist/
+*.tsbuildinfo
+
+# ── Build outputs ──
+build/
+out/
+*.exe
+*.jar
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ── Backend runtime data ──
+backend/data/
+uploads/
+*.db
+*.sqlite
+
+# ── Generated catalog export (run: make tsv) ──
+data/catalog.tsv
+
+# ── Editor / OS noise ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
