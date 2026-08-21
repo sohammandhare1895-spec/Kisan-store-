@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "storeName": "Kisan Store",
+    "tagline": "Data-for-Equipment — Empowering every farmer",
+    "version": "2.0.0",
+    "updated": "2026-08-21",
+    "logo": "assets/img/logo.png",
+    "logoSource": "https://www.image2url.com/r2/default/images/1787324710007-1737040a-2dec-4c46-861a-70162517f094.png",
+    "productImage": "assets/img/product.png",
+    "productImageSource": "https://www.image2url.com/r2/default/images/1787323787904-341a4717-b6a0-4751-9bc9-02cb3c0dd2ac.png",
+    "origin": "Kisan Store — Nagpur, Maharashtra, India"
+  },
+  "rewards": {
+    "dailyCheckinCoins": 5,
+    "minPhotos": 3,
+    "minVideoSeconds": 5,
+    "minDescriptionChars": 10,
+    "referralCoins": 50,
+    "quizCoins": 10,
+    "startingBalance": 1250,
+    "deliveryDays": "3-5",
+    "goalExample": "A farmer who checks in daily earns 5 coins/day — after ~200 days they can redeem the 1 HP Water Pump (1000 coins) for free."
+  },
+  "categories": [
+    { "id": "all", "label": "All Rewards", "icon": "fa-th-large" },
+    { "id": "equipment", "label": "Farm Equip", "icon": "fa-tractor" },
+    { "id": "smart", "label": "Smart Devices", "icon": "fa-video" },
+    { "id": "irrigation", "label": "Irrigation", "icon": "fa-tint" },
+    { "id": "kits", "label": "Farmer Kits", "icon": "fa-hand-holding-heart" },
+    { "id": "utility", "label": "Daily Utility", "icon": "fa-home" },
+    { "id": "seeds", "label": "Seeds & Fertilizer", "icon": "fa-seedling" },
+    { "id": "trending", "label": "Trending", "icon": "fa-fire" },
+    { "id": "offers", "label": "Offers", "icon": "fa-percent" }
+  ],
+  "products": [
+    {
+      "id": 1, "name": "Diesel Engine", "desc": "5 HP, water-cooled pump engine",
+      "category": "equipment", "price": 1500, "rating": 4.9, "reviews": 65, "redeemed": 480,
+      "trending": false, "tags": ["🚜 Best Seller"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 2, "name": "Power Tiller", "desc": "8 HP rotavator for small farms",
+      "category": "equipment", "price": 2000, "rating": 4.8, "reviews": 42, "redeemed": 210,
+      "trending": true, "tags": ["🔥 Premium"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 3, "name": "Mini Harvester", "desc": "Compact cutter for small farms",
+      "category": "equipment", "price": 3500, "rating": 4.7, "reviews": 38, "redeemed": 150,
+      "trending": false, "tags": ["⭐ New"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 4, "name": "Tool Kit", "desc": "18-piece farm tool set",
+      "category": "equipment", "price": 450, "rating": 4.6, "reviews": 88, "redeemed": 720,
+      "trending": true, "tags": ["🛠️ Essential"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 5, "name": "Spray Pump", "desc": "16L manual spray pump",
+      "category": "equipment", "price": 600, "rating": 4.7, "reviews": 75, "redeemed": 530,
+      "trending": false, "tags": ["🎯 Popular"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 6, "name": "Smart CCTV Kit", "desc": "4 cams + recorder, phone app view",
+      "category": "smart", "price": 800, "rating": 4.7, "reviews": 56, "redeemed": 420,
+      "trending": false, "tags": ["📡 IoT Ready"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 7, "name": "Soil Moisture Sensor", "desc": "Wireless, 500m range",
+      "category": "smart", "price": 950, "rating": 4.8, "reviews": 34, "redeemed": 180,
+      "trending": true, "tags": ["💡 Smart"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 8, "name": "Weather Station", "desc": "Solar powered, 7 sensors",
+      "category": "smart", "price": 1100, "rating": 4.5, "reviews": 29, "redeemed": 120,
+      "trending": false, "tags": ["🌦️ Accurate"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 9, "name": "Farm Management App", "desc": "1 year premium access",
+      "category": "smart", "price": 500, "rating": 4.9, "reviews": 210, "redeemed": 1500,
+      "trending": true, "tags": ["📊 Data Drive"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 10, "name": "CCTV Camera Kit", "desc": "1080p with night vision",
+      "category": "smart", "price": 850, "rating": 4.8, "reviews": 120, "redeemed": 640,
+      "trending": true, "tags": ["🔥 Bestseller"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 11, "name": "Water Pump", "desc": "1 HP, 100 ft head",
+      "category": "irrigation", "price": 1000, "rating": 4.9, "reviews": 98, "redeemed": 560,
+      "trending": true, "tags": ["⭐ Top Rated"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 12, "name": "Pipe Set 50m", "desc": "HDPE with connectors",
+      "category": "irrigation", "price": 1200, "rating": 4.8, "reviews": 110, "redeemed": 610,
+      "trending": false, "tags": ["💪 Heavy Duty"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 13, "name": "Drip Irrigation Kit", "desc": "1 acre, full set",
+      "category": "irrigation", "price": 1300, "rating": 4.6, "reviews": 72, "redeemed": 390,
+      "trending": true, "tags": ["💧 Water Save"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 14, "name": "HDPE Pipe Set 100m", "desc": "100m with joints",
+      "category": "irrigation", "price": 1200, "oldPrice": 1450, "rating": 4.8, "reviews": 95, "redeemed": 470,
+      "trending": false, "tags": ["🔩 Sturdy"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 15, "name": "Borewell Motor", "desc": "2 HP, submersible",
+      "category": "irrigation", "price": 2000, "rating": 4.7, "reviews": 48, "redeemed": 260,
+      "trending": false, "tags": ["💪 Powerful"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 16, "name": "Water Tank", "desc": "1000L, UV resistant",
+      "category": "irrigation", "price": 900, "rating": 4.5, "reviews": 63, "redeemed": 340,
+      "trending": false, "tags": ["🏠 Durable"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 17, "name": "Complete Farmer Kit", "desc": "Tools + seeds + sprayer",
+      "category": "kits", "price": 1800, "rating": 4.8, "reviews": 54, "redeemed": 300,
+      "trending": false, "tags": ["🎁 All-in-One"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 18, "name": "Seed Starter Kit", "desc": "Trays, coco-peat, 50 pots",
+      "category": "kits", "price": 700, "rating": 4.6, "reviews": 90, "redeemed": 510,
+      "trending": false, "tags": ["🌱 Beginner"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 19, "name": "Crop Protection Kit", "desc": "Net, traps, neem spray",
+      "category": "kits", "price": 1100, "rating": 4.7, "reviews": 61, "redeemed": 270,
+      "trending": false, "tags": ["🛡️ Shield"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 20, "name": "Harvest Toolkit", "desc": "Sickle, crates, scale",
+      "category": "kits", "price": 950, "oldPrice": 1200, "rating": 4.5, "reviews": 77, "redeemed": 330,
+      "trending": false, "tags": ["🌾 Harvest Time"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 21, "name": "Solar Lantern", "desc": "Bright, 12h backup",
+      "category": "utility", "price": 400, "rating": 4.7, "reviews": 130, "redeemed": 980,
+      "trending": true, "tags": ["💡 Light Up"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 22, "name": "Rechargeable Torch", "desc": "Heavy duty, USB-C",
+      "category": "utility", "price": 250, "rating": 4.5, "reviews": 140, "redeemed": 820,
+      "trending": false, "tags": ["🔦 Handy"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 23, "name": "Water Purifier Jug", "desc": "5L safe drinking water",
+      "category": "utility", "price": 350, "rating": 4.6, "reviews": 85, "redeemed": 430,
+      "trending": false, "tags": ["💧 Safe Water"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 24, "name": "Storage Drum", "desc": "200L food-grade drum",
+      "category": "utility", "price": 500, "rating": 4.5, "reviews": 60, "redeemed": 290,
+      "trending": false, "tags": ["🛢️ Durable"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 25, "name": "Weighing Scale", "desc": "50kg digital scale",
+      "category": "utility", "price": 450, "oldPrice": 600, "rating": 4.6, "reviews": 44, "redeemed": 210,
+      "trending": false, "tags": ["⚖️ Accurate"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 26, "name": "Hybrid Seeds Pack", "desc": "5 high-yield varieties",
+      "category": "seeds", "price": 300, "rating": 4.6, "reviews": 150, "redeemed": 940,
+      "trending": false, "tags": ["🌾 High Yield"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 27, "name": "NPK Fertilizer 10kg", "desc": "Balanced 10:26:26 mix",
+      "category": "seeds", "price": 550, "rating": 4.5, "reviews": 96, "redeemed": 470,
+      "trending": false, "tags": ["🧪 Balanced"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 28, "name": "Organic Compost 25kg", "desc": "100% organic, ready to use",
+      "category": "seeds", "price": 400, "oldPrice": 500, "rating": 4.7, "reviews": 102, "redeemed": 510,
+      "trending": false, "tags": ["🌿 100% Organic"], "img": "assets/img/product.png"
+    },
+    {
+      "id": 29, "name": "Bio Pesticide 1L", "desc": "Eco-safe, broad spectrum",
+      "category": "seeds", "price": 480, "rating": 4.6, "reviews": 58, "redeemed": 260,
+      "trending": false, "tags": ["🐞 Eco Safe"], "img": "assets/img/product.png"
+    }
+  ]
+}
