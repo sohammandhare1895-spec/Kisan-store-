@@ -1,0 +1,16 @@
+name: kisan_rewards
+description: >-
+  Kisan Store reward engine in Dart. Reads the shared data/catalog.json and
+  simulates the daily farm check-in economy (3 photos + 1 video + description
+  = +5 coins) with a redemption planner.
+version: 2.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  # No external packages — dart:convert and dart:io only.
+
+dev_dependencies:
+  lints: ^4.0.0
